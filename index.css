@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+.back {
+  background-image: url("img1.jpg");
+  background-size: cover;
+  height: 660px;
+  width: 100%;
+}
+.nvai1 {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  height: 40px;
+  width: 100%;
+  background-color: #012a4a9d; /* Darkolivegreen with 50% opacity */
+  align-items: center;
+}
+
+.nvai1 h1 {
+  font-size: 17px;
+  margin-left: 20px;
+  color: white;
+}
+.nvai1 h1:hover {
+  text-decoration: underline;
+}
+.nvai1 h2 i {
+  font-size: 20px;
+  margin-left: 8px;
+  color: white;
+}
+.nvai1 h2 i:hover {
+  color: #ffb703;
+}
+.navi2 ul {
+  list-style-type: none;
+  margin-top: 70px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navi2 li {
+  margin: 20px;
+}
+.navi2 a {
+  text-decoration: none;
+  color: white; /* Set your desired text color */
+  font-size: 25px;
+  font-weight: bold;
+}
+.navi2 a:hover {
+    color: #ffb703;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    /* Remove line-height from hover state */
+}
+.navi2 button {
+  padding: 5px 10px;
+  background-color: #ffb703; /* Set your desired button background color */
+  color: white; /* Set your desired button text color */
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.navi2 button:hover {
+  padding: 5px 10px;
+  background-color: #ffffff; /* Set your desired button background color */
+  color: #ffb703; /* Set your desired button text color */
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.heading1{
+    margin: 60px 0 0 60px;
+}
+.heading1 h1{
+    color: white;
+    font-size: 100px;
+}
+.para1{
+    margin-left: 60px;
+    width: 500px;
+}
+.para1{
+    color: white;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+.notification {
+    display: none;
+    background-color: #8ecae6; /* Set your desired notification background color */
+    color: black; /* Set your desired text color */
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 600px;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width */
+}
+.notification img{
+    height: 450px;
+    width: 450px;
+    align-items: center;
+    margin: 20px;
+    border-radius: 30px;
+    border: 5px solid #023047;
+}
+
+.notification button {
+    background-color: #333; /* Set your desired button background color */
+    color: white; /* Set your desired button text color */
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+span{
+    text-align: center;
+}
